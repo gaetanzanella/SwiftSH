@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name             = 'GZ-SwiftSH'
-  spec.version          = '1.0.0'
+  spec.version          = '1.1.1'
   spec.summary          = 'A Swift SSH framework that wraps libssh2.'
   spec.homepage         = 'https://github.com/Frugghi/SwiftSH'
   spec.license          = 'MIT'
