@@ -134,7 +134,7 @@ public class SSHShell: SSHChannel {
                         callback(responseString, errorString)
                     }
                 }
-                if let callback = self.readDataCallback, response != nil || error != nil {
+                if let callback = self.readDataCallback {
                     self.queue.callbackQueue.async {
                         callback(response, error)
                     }
